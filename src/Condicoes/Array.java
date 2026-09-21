@@ -11,7 +11,21 @@ public class Array {
         ninja[3] = "Hinata hyuuga";
         ninja[4] = "Kakashi Hatake";
 
-        System.out.println(ninja[5]);
+        System.out.println(ninja[4]);
+// redeclarar array
+        ninja = new String[7];
+        ninja[0] = "Hashirama Senju";
+        ninja[1] = "Tobirama Senju";
+        ninja[2] = "Hiruzen Sarutobi";
+        ninja[3] = "Minato Namikaze";
+        ninja[4] = "Kakashi Hatake";
+        ninja[5] = "Tsunade Senju";
+        ninja[6] = "Naruto Uzumaki";
+        System.out.println(ninja[4]);
+
+        for (int i = 0; i < 7; i++) {
+            System.out.println(ninja[i]);
+        }
 
         int[] idade = new int[2];
         idade[0] = 16;
